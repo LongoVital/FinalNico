@@ -107,8 +107,8 @@
                                     <input type="text" value="<?= $alumno->apellido ?>" name="apellido" id="apellido" class="form-control">
                                 </div>
                                 <div class="form-group">
-                                    <label for="fecnac">Fecha de Nacimiento</label>
-                                    <input type="date" value="<?= $alumno->fecnac ?>" name="fecnac" id="fecnac" class="form-control">
+                                    <label for="fec_nac">Fecha de Nacimiento</label>
+                                    <input type="date" value="<?= $alumno->fec_nac ?>" name="fec_nac" id="fec_nac" class="form-control">
                                 </div>
                                 <button type="submit" name="actualizarDatos" class="btn btn-primary mt-3">
                                     <i class="fas fa-save"></i> Actualizar
