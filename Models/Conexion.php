@@ -8,6 +8,7 @@ class Conexion
     private $database = "proyectonico";
     public $con;
 
+    // CONECCION CON BASE DE DATOS
     public function conectar()
     {
         $this->con = mysqli_connect($this->host, $this->user, $this->password, $this->database);
